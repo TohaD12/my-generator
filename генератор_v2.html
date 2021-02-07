@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<a style="position: absolute; top: 20%; right: 33%" href="#" id="num_1" class="pressed-button">№1&nbsp&nbsp</a>
+<a style="position: absolute; top: 30%; right: 33%" href="#" id="num_2" class="pressed-button">№2&nbsp&nbsp</a>
+<a style="position: absolute; top: 40%; right: 33%" href="#" id="num_3" class="pressed-button">№3&nbsp&nbsp</a>
+<a style="position: absolute; top: 50%; right: 33%" href="#" id="num_4" class="pressed-button">№4&nbsp&nbsp</a>
+<a style="position: absolute; top: 60%; right: 33%" href="#" id="num_5" class="pressed-button">№5&nbsp&nbsp</a>
+
+<a style="position: absolute; top: 20%; right: 10%" href="#" id="num_6" class="pressed-button">№6&nbsp&nbsp</a>
+<a style="position: absolute; top: 30%; right: 10%" href="#" id="num_7" class="pressed-button">№7&nbsp&nbsp</a>
+<a style="position: absolute; top: 40%; right: 10%" href="#" id="num_8" class="pressed-button">№8&nbsp&nbsp</a>
+<a style="position: absolute; top: 50%; right: 10%" href="#" id="num_9" class="pressed-button">№9&nbsp&nbsp</a>
+<a style="position: absolute; top: 60%; right: 10%" href="#" id="num_10" class="pressed-button">№10 </a>
+
+<a style="position: absolute; top: 80%; right: 19%" href="#" id="gen" onClick="generator();" class="pressed-button">Генератор</a>
+
+
+
+<div align="left">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a id="1" href="" class="shine-button">1234</a>
+  <a id="2" href="" class="shine-button">1234</a>
+  <a id="3" href="" class="shine-button">1234</a>
+  <a id="4" href="" class="shine-button">1234</a>
+  <a id="5" href="" class="shine-button">1234</a>
+  <a id="6" href="" class="shine-button">1234</a>
+
+</div>
+
+<div align="left">
+  <a id="7" href="" class="shine-button">1234</a>
+  <a id="8" href="" class="shine-button">1234</a>
+  <a id="9" href="" class="shine-button">1234</a>
+  <a id="10" href="" class="shine-button">1234</a>
+  <a id="11" href="" class="shine-button">1234</a>
+  <a id="12" href="" class="shine-button">1234</a>
+</div>
+
+<div align="left">
+  <a id="13" href="" class="shine-button">1234</a>
+  <a id="14" href="" class="shine-button">1234</a>
+  <a id="15" href="" class="shine-button">1234</a>
+  <a id="16" href="" class="shine-button">1234</a>
+  <a id="17" href="" class="shine-button">1234</a>
+  <a id="18" href="" class="shine-button">1234</a>
+</div>
+
+<div align="left">
+  
+  <a id="19" href="" class="shine-button">1234</a>
+  <a id="20" href="" class="shine-button">1234</a>
+  <a id="21" href="" class="shine-button">1234</a>
+  <a id="22" href="" class="shine-button">1234</a>
+  <a id="23" href="" class="shine-button">1234</a>
+  <a id="24" href="" class="shine-button">1234</a>
+</div>
+<div align="left">
+  
+  <a id="25" href="" class="shine-button">1234</a>
+  <a id="26" href="" class="shine-button">1234</a>
+  <a id="27" href="" class="shine-button">1234</a>
+  <a id="28" href="" class="shine-button">1234</a>
+  <a id="29" href="" class="shine-button">1234</a>
+  <a id="30" href="" class="shine-button">1234</a>
+</div>
+
+<div align="left">
+
+  <a id="31" href="" class="shine-button">1234</a>
+  <a id="32" href="" class="shine-button">1234</a>
+  <a id="33" href="" class="shine-button">1234</a>
+  <a id="34" href="" class="shine-button">1234</a>
+  <a id="35" href="" class="shine-button">1234</a>
+  <a id="36" href="" class="shine-button">1234</a>
+</div>
+
+<div align="left">
+  <a id="37" href="" class="shine-button">1234</a>
+  <a id="38" href="" class="shine-button">1234</a>
+  <a id="39" href="" class="shine-button">1234</a>
+  <a id="40" href="" class="shine-button">1234</a>
+  <a id="41" href="" class="shine-button">1234</a>
+  <a id="42" href="" class="shine-button">1234</a>
+</div>
+
+<div align="left">
+  <a id="43" href="" class="shine-button">1234</a>
+  <a id="44" href="" class="shine-button">1234</a>
+  <a id="45" href="" class="shine-button">1234</a>
+  <a id="46" href="" class="shine-button">1234</a>
+  <a id="47" href="" class="shine-button">1234</a>
+  <a id="48" href="" class="shine-button">1234</a>
+</div>
+
+<div align="left">
+  <a id="49" href="" class="shine-button">1234</a>
+  <a id="50" href="" class="shine-button">1234</a>
+  <a id="51" href="" class="shine-button">1234</a>
+  <a id="52" href="" class="shine-button">1234</a>
+  <a id="53" href="" class="shine-button">1234</a>
+  <a id="54" href="" class="shine-button">1234</a>
+</div>
+
+<div align="left">
+  <a id="55" href="" class="shine-button">1234</a>
+  <a id="56" href="" class="shine-button">1234</a>
+  <a id="57" href="" class="shine-button">1234</a>
+  <a id="58" href="" class="shine-button">1234</a>
+  <a id="59" href="" class="shine-button">1234</a>
+  <a id="60" href="" class="shine-button">1234</a>
+</div>
+
+ 
+
+
+      <script type="text/javascript">
+
+
+        var wordss = [6367, 7106, 7425, 8667, 7183, 5905, 6226, 8320, 8053, 5245, 5356,
+           5278, 5903, 8917, 7882, 8051, 5457, 7649, 7704, 6750, 7283, 6349, 7139, 7329,
+            7754, 7249, 7529, 8391, 8850, 7135, 7048, 7248, 7031, 7199, 5339, 6265, 7434,
+             6756, 7046, 5389, 6710, 8566, 7651, 7677, 8339, 8571, 6852, 5491, 6124, 6497,
+              5662, 1211, 1311, 1411, 1511, 1611, 1711, 1811, 1911, 2011,]
+
+                for (var i = 0; i < wordss.length; i++){
+          var c = 1 + i
+            var str = c+""
+            document.getElementById(str).innerHTML =wordss[i];
+          }
+
+
+
+      function generator(){
+
+        document.getElementById("gen").style.visibility = "hidden"
+
+        function hide_1(num){
+          document.getElementById(num).style.visibility = "hidden"
+        }
+        setTimeout(hide_1, 1000, "num_1")
+        setTimeout(hide_1, 2000, "num_2")
+        setTimeout(hide_1, 3000, "num_3")
+        setTimeout(hide_1, 4000, "num_4")
+        setTimeout(hide_1, 5000, "num_5")
+        setTimeout(hide_1, 6000, "num_6")
+        setTimeout(hide_1, 7000, "num_7")
+        setTimeout(hide_1, 8000, "num_8")
+        setTimeout(hide_1, 9000, "num_9")
+        setTimeout(hide_1, 10000, "num_10")
+        
+        
+        
+        
+        
+
+          var words = [6367, 7106, 7425, 8667, 7183, 5905, 6226, 8320, 8053, 5245, 5356,
+           5278, 5903, 8917, 7882, 8051, 5457, 7649, 7704, 6750, 7283, 6349, 7139, 7329,
+            7754, 7249, 7529, 8391, 8850, 7135, 7048, 7248, 7031, 7199, 5339, 6265, 7434,
+             6756, 7046, 5389, 6710, 8566, 7651, 7677, 8339, 8571, 6852, 5491, 6124, 6497,
+              5662, 1211, 1311, 1411, 1511, 1611, 1711, 1811, 1911, 2011]
+
+              var id = []
+
+        var a = parseInt(Math.random() * 60)
+        var b = words[a]
+        words.splice(a, 1)
+
+        var c = parseInt(Math.random() * 59)
+        var d = words[c]
+        words.splice(c, 1)
+
+        var e = parseInt(Math.random() * 58)
+        var f = words[e]
+        words.splice(e, 1)
+
+        var g = parseInt(Math.random() * 57)
+        var h = words[g]
+        words.splice(g, 1)
+
+        var i = parseInt(Math.random() * 56)
+        var j = words[i]
+        words.splice(i, 1)
+
+        var k = parseInt(Math.random() * 55)
+        var l = words[k]
+        words.splice(k, 1)
+
+        var m = parseInt(Math.random() * 54)
+        var n = words[m]
+        words.splice(m, 1)
+
+        var o = parseInt(Math.random() * 53)
+        var p = words[o]
+        words.splice(o, 1)
+        
+        var r = parseInt(Math.random() * 52)
+        var s = words[r]
+        words.splice(r, 1)
+        
+        var t = parseInt(Math.random() * 51)
+        var y = words[t]
+        words.splice(t, 1)
+        
+
+
+
+        
+        
+
+
+
+        function visible_1(num, number){
+          document.getElementById(num).style.visibility = "visible"
+          document.getElementById(num).innerHTML = number;
+        }
+        
+
+
+        function unvisible_1(num){
+            for (var i = 0; i < wordss.length; i++){
+            var c = 1 + i
+            var str = c+""
+              if (document.getElementById(num).innerText == document.getElementById(str).innerText){
+                document.getElementById(str).style.border = "4px solid #FF0000"
+              }
+          }
+            
+        }
+
+        setTimeout(visible_1, 11000, "num_1", b)
+        setTimeout(visible_1, 13000, "num_2", d)
+        setTimeout(visible_1, 15000, "num_3", f)
+        setTimeout(visible_1, 17000, "num_4", h)
+        setTimeout(visible_1, 19000, "num_5", j)
+        setTimeout(visible_1, 21000, "num_6", l)
+        setTimeout(visible_1, 23000, "num_7", n)
+        setTimeout(visible_1, 25000, "num_8", p)
+        setTimeout(visible_1, 27000, "num_9", s)
+        setTimeout(visible_1, 29000, "num_10", y)
+
+
+        setTimeout(unvisible_1, 12000, "num_1")
+        setTimeout(unvisible_1, 14000, "num_2")
+        setTimeout(unvisible_1, 16000, "num_3")
+        setTimeout(unvisible_1, 18000, "num_4")
+        setTimeout(unvisible_1, 20000, "num_5")
+        setTimeout(unvisible_1, 22000, "num_6")
+        setTimeout(unvisible_1, 24000, "num_7")
+        setTimeout(unvisible_1, 26000, "num_8")
+        setTimeout(unvisible_1, 28000, "num_9")
+        setTimeout(unvisible_1, 30000, "num_10")
+
+ 
+
+
+        }
+
+
+
+      </script>
+    
+    
+
+
+
+
+  
+</body>
+
+
+    <style>
+
+body {
+  background: url(https://html5book.ru/wp-content/uploads/2015/10/background54.png);
+}
+.pressed-button {
+
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 40px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  color: white;
+  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+  transition: .5s;
+}
+.pressed-button:hover {
+  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
+}
+.shine-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  border: 4px solid #00FFFF;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fe6637;
+  transition: .2s ease-in-out;
+}
+.shine-button:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  transform: skewX(-45deg);
+}
+.shine-button:hover {
+  background: #fe6637;
+  color: #fff;
+}
+.shine-button:hover:before {
+  left: 150px;
+  transition: .5s ease-in-out;
+}
+
+    </style>
+
+</html>
